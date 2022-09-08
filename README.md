@@ -2,7 +2,7 @@
 
 [![Build status](https://img.shields.io/github/workflow/status/digitalbazaar/eddsa-2022-cryptosuite/Node.js%20CI)](https://github.com/digitalbazaar/eddsa-2022-cryptosuite/actions?query=workflow%3A%22Node.js+CI%22)
 [![Coverage status](https://img.shields.io/codecov/c/github/digitalbazaar/eddsa-2022-cryptosuite)](https://codecov.io/gh/digitalbazaar/eddsa-2022-cryptosuite)
-[![NPM Version](https://img.shields.io/npm/v/@digitalbazaar/eddsa-2022-cryptosuite.svg)](https://npm.im/digitalbazaar/eddsa-2022-cryptosuite)
+[![NPM Version](https://img.shields.io/npm/v/@digitalbazaar/eddsa-2022-cryptosuite.svg)](https://npm.im/@digitalbazaar/eddsa-2022-cryptosuite)
 
 > Eddsa 2022 Data Integrity Cryptosuite for use with jsonld-signatures.
 
@@ -53,7 +53,7 @@ a verifiable credential using this library:
 
 ```javascript
 import * as Ed25519Multikey from '@digitalbazaar/ed25519-multikey';
-import {DataIntegrityProof} from '@digitalbazaar/eddsa-2022-cryptosuite';
+import {DataIntegrityProof} from '@digitalbazaar/data-integrity';
 import {cryptosuite as eddsa2022CryptoSuite} from
   '@digitalbazaar/eddsa-2022-cryptosuite';
 import jsigs from 'jsonld-signatures';
@@ -126,7 +126,7 @@ const signedCredential = await jsigs.sign(unsignedCredential, {
       "AlumniCredential": "https://schema.org#AlumniCredential",
       "alumniOf": "https://schema.org#alumniOf"
     },
-    "https://w3id.org/security/eddsa-2022-cryptosuite/v1"
+    "https://w3id.org/security/data-integrity/v1"
   ],
   "id": "http://example.edu/credentials/1872",
   "type": [

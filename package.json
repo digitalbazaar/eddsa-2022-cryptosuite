@@ -14,16 +14,16 @@
     "lib/**/*.js"
   ],
   "dependencies": {
-    "@digitalbazaar/ed25519-multikey": "github:digitalbazaar/ed25519-multikey#initial",
+    "@digitalbazaar/ed25519-multikey": "^1.0.0",
     "jsonld": "^8.1.0"
   },
   "devDependencies": {
     "@digitalbazaar/ed25519-verification-key-2018": "^4.0.0",
     "@digitalbazaar/ed25519-verification-key-2020": "^4.1.0",
-    "@digitalbazaar/data-integrity": "github:digitalbazaar/data-integrity#initial",
-    "@digitalbazaar/data-integrity-context": "github:digitalbazaar/data-integrity-context#initial",
-    "@digitalbazaar/ed25519-multikey": "github:digitalbazaar/ed25519-multikey#initial",
-    "@digitalbazaar/multikey-context": "github:digitalbazaar/multikey-context#initial",
+    "@digitalbazaar/data-integrity": "^1.0.0",
+    "@digitalbazaar/data-integrity-context": "^1.0.0",
+    "@digitalbazaar/ed25519-multikey": "^1.0.0",
+    "@digitalbazaar/multikey-context": "^1.0.0",
     "@digitalbazaar/security-document-loader": "^2.0.0",
     "c8": "^7.11.3",
     "chai": "^4.3.6",
