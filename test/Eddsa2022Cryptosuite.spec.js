@@ -161,8 +161,8 @@ describe('Eddsa2022Cryptosuite', () => {
       expect(signedCredential).to.have.property('proof');
       expect(signedCredential.proof['@context']).to.not.exist;
       expect(signedCredential.proof.proofValue).to
-        .equal('z3mUohG26PXywKkpw9v3Eacceo6kEDL44ps37hgYLj434kJhfigbqUATJJJbM' +
-          'kue8HgagkTEtNXNkojGGiZU48cR9');
+        .equal('zakT6XP6P7ZVAGJKjvnVi1YjC96RufyeasEEMkDQrCkvMnG3QeAqBuoVoWAWk' +
+          'EEd5w8FATEigPA5788ByuwnCZrd');
     });
 
     it('should fail to sign with undefined term', async () => {
